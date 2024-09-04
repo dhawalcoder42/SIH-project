@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  color: #4b0082; /* Purple color */
+}
+
+p {
+  color: #333;
+}
+
+a {
+  color: #4b0082;
+  text-decoration: none;
+}
