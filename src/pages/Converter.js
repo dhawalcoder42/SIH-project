@@ -7,7 +7,7 @@ function Converter() {
   const [subtitle, setSubtitle] = useState('Translation Here');
 
   useEffect(() => {
-    // Accessing the webcam
+    
     navigator.mediaDevices.getUserMedia({ video: true })
       .then(stream => {
         if (videoRef.current) {
@@ -18,14 +18,14 @@ function Converter() {
         console.error("Error accessing webcam: ", err);
       });
 
-    // Mockup detection logic (replace with real hand detection & sign language interpretation logic)
+   
     const mockDetection = () => {
-      setDetectedSign('A'); // Mocked detected sign
-      setSubtitle('This is the letter A'); // Mocked subtitle
+      setDetectedSign('A'); 
+      setSubtitle('This is the letter A'); 
     };
-    const intervalId = setInterval(mockDetection, 2000); // Mock detection every 2 seconds
+    const intervalId = setInterval(mockDetection, 2000); 
 
-    return () => clearInterval(intervalId); // Cleanup on component unmount
+    return () => clearInterval(intervalId); 
   }, []);
 
   return (

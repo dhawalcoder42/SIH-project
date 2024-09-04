@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #4B0082; /* Dark purple */
+    background-color: #4B0082; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
     display: flex;
@@ -37,8 +37,8 @@
   }
   
   .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Glassy effect on hover */
-    backdrop-filter: blur(10px); /* Glossy effect on hover */
-    transform: scale(1.05); /* Slightly enlarges on hover */
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    transform: scale(1.05); 
   }
   
