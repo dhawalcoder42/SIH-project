@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
+import logo from '../assets/logo.png'; 
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="logo">Learning App</h1>
+      <div className="logo-container">
+        <img src={logo} alt="Gestura Logo" className="logo-image" />
+        <h1 className="logo">Gestura</h1>
+      </div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/alphabets">Alphabets</Link></li>
