@@ -1,12 +1,97 @@
 .mathematics {
-    padding: 20px;
-  }
-  
-  .mathematics h2 {
-    color: #4b0082;
-  }
-  
-  .mathematics p {
-    color: #333;
-  }
-  
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.mathematics h2 {
+  color: #4b0082;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.mathematics h3 {
+  color: #4b0082;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.mathematics p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.platform-features {
+  margin-top: 20px;
+}
+
+.progress-section {
+  margin-top: 40px;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  position: relative;
+  height: 25px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.progress-bar-fill {
+  background-color: #4b0082;
+  height: 100%;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  width: 0;
+}
+
+.progress-graph {
+  margin-top: 30px;
+}
+
+.quizzes-section {
+  margin-top: 40px;
+}
+
+.quiz-button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.quiz-button:hover {
+  background-color: #6a0dad;
+}
+
+.exercise-section {
+  margin-top: 40px;
+}
+
+.exercise-box {
+  padding: 20px;
+  border: 2px solid #4b0082;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.exercise-button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.exercise-button:hover {
+  background-color: #6a0dad;
+}

@@ -1,12 +1,64 @@
 .alphabets {
-    padding: 20px;
-  }
-  
-  .alphabets h2 {
-    color: #4b0082;
-  }
-  
-  .alphabets p {
-    color: #333;
-  }
-  
+  padding: 20px;
+  text-align: center;
+}
+
+.alphabets h2 {
+  color: #4b0082;
+}
+
+.alphabets p {
+  color: #333;
+}
+
+.gamified-learning, .sign-language-translation, .writing-practice, .communication-section {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9ff;
+}
+
+.gamified-learning h3, .sign-language-translation h3, .writing-practice h3, .communication-section h3 {
+  color: #4b0082;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 25px;
+  background-color: #eee;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #4b0082;
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.sign-language-box {
+  padding: 15px;
+  background-color: #f0f0f5;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.translate-button, .writing-button, .communication-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.translate-button:hover, .writing-button:hover, .communication-button:hover {
+  background-color: #371064;
+}

@@ -1,12 +1,153 @@
 .science {
-    padding: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.science h2 {
+  color: #4b0082;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.science h3 {
+  color: #4b0082;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.science p {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Quizzes Section */
+.quizzes-section {
+  margin-top: 40px;
+}
+
+.quiz-score {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.quiz-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.quiz-progress-bar-fill {
+  background-color: #4b0082;
+  height: 100%;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+.quiz-button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.quiz-button:hover {
+  background-color: #6a0dad;
+}
+
+/* Practical Section */
+.practicals-section {
+  margin-top: 40px;
+}
+
+.practical-progress {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.practical-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.practical-progress-bar-fill {
+  background-color: #4b0082;
+  height: 100%;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+.practical-button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.practical-button:hover {
+  background-color: #6a0dad;
+}
+
+/* Progress Graph */
+.progress-graph {
+  margin-top: 40px;
+}
+
+/* Exercise Section */
+.exercise-section {
+  margin-top: 40px;
+}
+
+.exercise-box {
+  padding: 20px;
+  border: 2px solid #4b0082;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+.exercise-animation {
+  padding: 10px;
+  color: #4b0082;
+  font-size: 1.2rem;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #4b0082, 0 0 20px #6a0dad;
   }
-  
-  .science h2 {
-    color: #4b0082;
+  to {
+    text-shadow: 0 0 20px #4b0082, 0 0 30px #6a0dad;
   }
-  
-  .science p {
-    color: #333;
-  }
-  
+}
+
+.exercise-button {
+  padding: 10px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.exercise-button:hover {
+  background-color: #6a0dad;
+}
