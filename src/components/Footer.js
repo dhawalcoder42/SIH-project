@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Footer.css';
 
+
 function App() {
   return (
     <div className="footer-container">
@@ -15,7 +16,7 @@ function App() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Learning App. All rights reserved.</p>
+      <p style={{color:"#FFFFFF"}}>&copy; 2024 Learning App. All rights reserved.</p>
     </footer>
   );
 }

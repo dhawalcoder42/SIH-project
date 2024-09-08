@@ -49,7 +49,9 @@ function Home() {
           <p>Personalized lessons and progress tracking tailored to each student’s pace and skill level.</p>
         </div>
       </div>
+    
     </div>
+    
   );
 }
 
