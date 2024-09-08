@@ -1,6 +1,7 @@
 .alphabets {
   padding: 20px;
   text-align: center;
+  /* background-color: #c6d0ec; */
 }
 
 .alphabets h2 {
@@ -12,15 +13,25 @@
 }
 
 .gamified-learning, .sign-language-translation, .writing-practice, .communication-section {
-  margin: 20px 0;
+  margin: 30px auto;
+  width: 65%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #acacac;
   border-radius: 8px;
   background-color: #f9f9ff;
 }
 
 .gamified-learning h3, .sign-language-translation h3, .writing-practice h3, .communication-section h3 {
   color: #4b0082;
+}
+
+.progress-graph{
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 8px;
+  background-color: #f9f9ff;
 }
 
 .progress-bar {
