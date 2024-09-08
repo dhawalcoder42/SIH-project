@@ -20,9 +20,14 @@
 
 
 .carousel-container {
-    margin: 0 auto;
+    margin: auto;
+    border: 3px solid #000000;
+    border-radius: 15px; 
+    /* padding: 2px; */
+    overflow: hidden;
     max-width: 800px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 
