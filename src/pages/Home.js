@@ -5,7 +5,26 @@ import '../styles/Home.css';
 
 function Home() {
   return (
+    // Megh(09-09-24): I don't know how to manipulate the text here, someone else please help and make the text seem right.
     <div className="home-container">
+      <div className="platform-features">
+        <h3>Comprehensive Learning Platform</h3>
+        <p>
+          Our platform is designed for deaf and mute students, featuring Gujarati alphabets, numbers, words, and sentences with sign language interpretations.
+        </p>
+        <p>
+          It offers interactive writing exercises, math and science tutorials, and assessments tailored for students with special needs.        
+        </p>
+        <p>  
+          With real-time conversion between Gujarati text/speech and sign language, it facilitates seamless communication for students, parents, and teachers.
+        </p>
+        <p>  
+          Progress tracking and analytics ensure personalized learning experiences, accessible from any device, bridging communication gaps and fostering inclusivity.
+        </p>
+        <p>  
+          Empower students to learn at their own pace, both at school and home, with our easy-to-use platform.
+        </p>
+      </div> 
       {/* Image Carousel */}
       <div className="carousel-container">
         <Carousel 

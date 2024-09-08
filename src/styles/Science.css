@@ -25,7 +25,12 @@
 
 /* Quizzes Section */
 .quizzes-section {
-  margin-top: 40px;
+  margin: 40px auto;
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 8px;
+  background-color: #f9f9ff;
 }
 
 .quiz-score {
@@ -66,7 +71,12 @@
 
 /* Practical Section */
 .practicals-section {
-  margin-top: 40px;
+  margin: 40px auto;
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 8px;
+  background-color: #f9f9ff;
 }
 
 .practical-progress {
@@ -112,7 +122,12 @@
 
 /* Exercise Section */
 .exercise-section {
-  margin-top: 40px;
+  margin: 40px auto;
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 8px;
+  background-color: #f9f9ff;
 }
 
 .exercise-box {

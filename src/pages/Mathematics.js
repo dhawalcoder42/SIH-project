@@ -37,24 +37,16 @@ function Mathematics() {
       <h2>Learn Mathematics</h2>
       <p>Practice basic math operations in Gujarati.</p>
 
-      <div className="platform-features">
+      {/* <div className="platform-features">
         <h3>Comprehensive Learning Platform</h3>
         <p>
           Our platform is designed for deaf and mute students, featuring Gujarati alphabets, numbers, words, and sentences with sign language interpretations.
+           It offers interactive writing exercises, math and science tutorials, and assessments tailored for students with special needs.        
+           With real-time conversion between Gujarati text/speech and sign language, it facilitates seamless communication for students, parents, and teachers.
+           Progress tracking and analytics ensure personalized learning experiences, accessible from any device, bridging communication gaps and fostering inclusivity.
+           Empower students to learn at their own pace, both at school and home, with our easy-to-use platform.
         </p>
-        <p>
-          It offers interactive writing exercises, math and science tutorials, and assessments tailored for students with special needs.
-        </p>
-        <p>
-          With real-time conversion between Gujarati text/speech and sign language, it facilitates seamless communication for students, parents, and teachers.
-        </p>
-        <p>
-          Progress tracking and analytics ensure personalized learning experiences, accessible from any device, bridging communication gaps and fostering inclusivity.
-        </p>
-        <p>
-          Empower students to learn at their own pace, both at school and home, with our easy-to-use platform.
-        </p>
-      </div>
+      </div> */}
 
       {/* Progress Bar Section */}
       <div className="progress-section">
