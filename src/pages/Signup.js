@@ -13,7 +13,6 @@ function Signup() {
   const handleSignup = (e) => {
     e.preventDefault();
 
-    // Simple validation
     if (name === '' || email === '' || password === '' || confirmPassword === '') {
       setError('Please fill in all fields');
       return;
@@ -24,10 +23,10 @@ function Signup() {
       return;
     }
 
-    // Here you would normally send the signup data to the backend.
+    
     console.log('Name:', name, 'Email:', email, 'Password:', password);
     setError('');
-    navigate('/login'); // Redirect to login after successful signup
+    navigate('/login'); 
   };
 
   return (

@@ -6,7 +6,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className="home-container">
-      {/* Image Carousel */}
+    
       <div className="carousel-container">
         <Carousel 
           autoPlay 

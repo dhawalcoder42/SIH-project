@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { saveAs } from 'file-saver';
 import * as Docx from 'docx';
-import { FaPlay, FaPause, FaSave, FaDownload } from 'react-icons/fa'; // Import icons
+import { FaPlay, FaPause, FaSave, FaDownload } from 'react-icons/fa'; 
 import '../styles/Converter.css';
 
 function Converter() {
@@ -78,7 +78,7 @@ function Converter() {
       a.href = videoUrl;
       a.download = 'recorded-video.mp4';
       a.click();
-      setChunks([]); // Reset chunks after saving
+      setChunks([]); 
     };
   };
 

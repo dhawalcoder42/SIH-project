@@ -11,17 +11,16 @@ function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Simple validation
+
     if (email === '' || password === '') {
       setError('Please fill in all fields');
       return;
     }
 
-    // Here you would normally check the credentials with the backend.
-    // If login is successful, redirect to home or dashboard.
+
     console.log('Email:', email, 'Password:', password);
     setError('');
-    navigate('/'); // Navigate to home after successful login
+    navigate('/'); 
   };
 
   return (

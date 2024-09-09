@@ -56,7 +56,7 @@ function Mathematics() {
         </p>
       </div>
 
-      {/* Progress Bar Section */}
+      
       <div className="progress-section">
         <h3>Your Learning Progress</h3>
         <div className="progress-bar">
@@ -64,20 +64,19 @@ function Mathematics() {
         </div>
       </div>
 
-      {/* Curved Progress Graph */}
       <div className="progress-graph">
         <h3>Progress Over Time</h3>
         <Line data={progressData} options={progressOptions} />
       </div>
 
-      {/* Quizzes Section */}
+   
       <div className="quizzes-section">
         <h3>Quizzes</h3>
         <p>Test your knowledge with interactive quizzes covering various mathematical topics.</p>
         <button className="quiz-button">Start Quiz</button>
       </div>
 
-      {/* Exercise Box Section */}
+    
       <div className="exercise-section">
         <h3>Exercise Box</h3>
         <div className="exercise-box">

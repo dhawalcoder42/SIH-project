@@ -6,8 +6,8 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 function Science() {
-  const quizScore = 80; // Static value for quiz score
-  const practicalCompletion = 50; // Static value for practical completion
+  const quizScore = 80; 
+  const practicalCompletion = 50; 
 
   const progressData = {
     labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5'],
@@ -41,7 +41,6 @@ function Science() {
       <h2>Learn Science</h2>
       <p>Understand basic science principles with sign language tutorials, interactive exercises, and real-time progress tracking.</p>
 
-      {/* Quizzes Section */}
       <div className="quizzes-section">
         <h3>Quizzes</h3>
         <p>Take quizzes to test your understanding of scientific concepts.</p>
@@ -54,7 +53,7 @@ function Science() {
         <button className="quiz-button">Start New Quiz</button>
       </div>
 
-      {/* Practical Exercises Section */}
+     
       <div className="practicals-section">
         <h3>Practical Exercises</h3>
         <p>Complete practicals and experiments to enhance your learning.</p>
@@ -67,13 +66,13 @@ function Science() {
         <button className="practical-button">Start Practical Exercise</button>
       </div>
 
-      {/* Graph Showing Progress */}
+      
       <div className="progress-graph">
         <h3>Learning Progress Over Time</h3>
         <Line data={progressData} options={progressOptions} />
       </div>
 
-      {/* Exercise Section with Animations */}
+    
       <div className="exercise-section">
         <h3>Interactive Exercises</h3>
         <div className="exercise-box">

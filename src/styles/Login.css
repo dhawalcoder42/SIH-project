@@ -7,21 +7,21 @@
     background-color: #f8f4f9;
   }
   
-  /* Login Box Styles */
+  
   .login-box {
-    background: rgba(54, 1, 93, 0.895); /* Transparent background with color tint */
+    background: rgba(54, 1, 93, 0.895); 
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgb(0, 0, 0), 
                 0 6px 20px rgba(255, 255, 255, 0.333) inset;
     width: 350px;
     text-align: center;
-    backdrop-filter: blur(10px); /* Adds a blurry effect */
+    backdrop-filter: blur(10px); 
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  /* Glossy Effect */
+ 
   .login-box::before {
     content: '';
     position: absolute;
@@ -31,18 +31,18 @@
     bottom: 0;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     border-radius: 12px;
-    pointer-events: none; /* This prevents interfering with any interaction */
+    pointer-events: none; 
     mix-blend-mode: overlay;
   }
   
-  /* Hover Animation and Effects */
+  
   .login-box:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3),
-                0 10px 25px rgba(255, 255, 255, 0.2) inset; /* Stronger shadow on hover */
+                0 10px 25px rgba(255, 255, 255, 0.2) inset; 
   }
   
-  /* Header Styles */
+  
   .login-box h2 {
     color: #fff;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@
     animation: fadeIn 1s ease-in-out;
   }
   
-  /* Input Group Styles */
+
   .input-group {
     margin-bottom: 20px;
     text-align: left;
@@ -79,14 +79,14 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   
-  /* Error Message */
+  
   .error-message {
     color: #ff6b6b;
     margin-bottom: 15px;
-    animation: shake 0.5s ease-in-out; /* Adds shake animation when an error occurs */
+    animation: shake 0.5s ease-in-out; 
   }
   
-  /* Button Styles */
+ 
   .login-button {
     width: 100%;
     padding: 12px;
@@ -99,14 +99,13 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
   
-  /* Button Hover Effect */
+ 
   .login-button:hover {
-    transform: translateY(-3px); /* Slight lift on hover */
+    transform: translateY(-3px); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2),
                 0 4px 8px rgba(255, 255, 255, 0.1) inset;
   }
   
-  /* Signup Text */
   .signup-text {
     margin-top: 20px;
     color: #fff;
@@ -123,7 +122,7 @@
     color: #00ffdd;
   }
   
-  /* Keyframes for Animations */
+ 
   @keyframes fadeIn {
     0% {
       opacity: 0;

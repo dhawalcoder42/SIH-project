@@ -3,7 +3,7 @@ import '../styles/Alphabets.css';
 import { Line } from 'react-chartjs-2';
 
 function Alphabets() {
-  const alphabetProgress = 70; // Static value for learning progress
+  const alphabetProgress = 70; 
 
   const alphabetData = {
     labels: ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
@@ -37,7 +37,7 @@ function Alphabets() {
       <h2>Learn Gujarati Alphabets</h2>
       <p>Explore the Gujarati alphabet, practice writing, and engage with interactive sign language tutorials to bridge communication gaps.</p>
 
-      {/* Gamified Learning Section */}
+     
       <div className="gamified-learning">
         <h3>Gamified Learning Experience</h3>
         <p>Unlock achievements as you master Gujarati alphabets.</p>
@@ -46,7 +46,7 @@ function Alphabets() {
         </div>
       </div>
 
-      {/* Real-Time Sign Language Translation */}
+      
       <div className="sign-language-translation">
         <h3>Real-Time Sign Language Translation</h3>
         <p>Translate between Gujarati text, speech, and sign language instantly.</p>
