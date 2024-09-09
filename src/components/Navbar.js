@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import logo from '../assets/logo.png'; 
+import { FaUser } from 'react-icons/fa'; // Import the login icon
 
 function Navbar() {
   return (
@@ -16,6 +17,9 @@ function Navbar() {
         <li><Link to="/mathematics">Mathematics</Link></li>
         <li><Link to="/science">Science</Link></li>
         <li><Link to="/converter">Converter</Link></li>
+        <li className="login-icon">
+          <Link to="/login"><FaUser /></Link> {/* Use the icon here */}
+        </li>
       </ul>
     </nav>
   );

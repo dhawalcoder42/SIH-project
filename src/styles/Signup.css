@@ -1,0 +1,151 @@
+/* General Signup Container Styles */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Signup Box Styles */
+.signup-box {
+    background: rgba(54, 1, 93, 0.9); /* Transparent background with color tint */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0),
+                0 6px 20px rgba(255, 255, 255, 0.3) inset;
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Adds blurry effect */
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Glossy Effect */
+.signup-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    border-radius: 12px;
+    pointer-events: none; /* Prevent interaction */
+    mix-blend-mode: overlay;
+}
+
+/* Hover Animation and Effects */
+.signup-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3),
+                0 10px 25px rgba(255, 255, 255, 0.2) inset; /* Stronger shadow on hover */
+}
+
+/* Header Styles */
+.signup-box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Input Group Styles */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Error Message */
+.error-message {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+    animation: shake 0.5s ease-in-out; /* Adds shake animation when an error occurs */
+}
+
+/* Button Styles */
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button Hover Effect */
+.signup-button:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2),
+                0 4px 8px rgba(255, 255, 255, 0.1) inset;
+}
+
+/* Login Text */
+.login-text {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.login-text a {
+    color: #00ced1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+    color: #00ffdd;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-4px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    75% {
+        transform: translateX(-4px);
+    }
+}
