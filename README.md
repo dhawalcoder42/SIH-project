@@ -1,3 +1,15 @@
+![image](https://github.com/user-attachments/assets/a4172696-ee03-4b32-8557-d287fb588f69)
+![image](https://github.com/user-attachments/assets/43327612-1657-48b0-b748-7f1d175d9c52)
+![image](https://github.com/user-attachments/assets/f1a5b295-be7d-4c19-9f3c-0acd43268db6)
+![image](https://github.com/user-attachments/assets/b29bb9ae-7715-49fc-8ff5-495f6570e612)
+Problem Definition:
+
+Deaf and mute students in Gujarat face significant challenges in learning beyond the classroom due to the lack of digital resources, especially in Indian Sign Language and Gujarati. Traditional methods like manualism and oralism are limited, and many families lack sign language proficiency. The gap in communication and education resources restricts these students' ability to practice and learn effectively. With inclusivity as a focus of the government and industries, there is a critical need for a comprehensive mobile application that offers accessible learning tools, bridges communication gaps, and supports the holistic development of these students in today's digital age.
+
+Proposed Solution as a Web Application:
+
+The web application will serve as a comprehensive learning platform for deaf and mute students, featuring Gujarati alphabets, numbers, words, and sentences with sign language interpretations. It will offer interactive writing exercises, math and science tutorials, and assessments. The platform will provide real-time conversion between Gujarati text/speech and sign language, facilitating communication for students, parents, and teachers. With progress tracking and analytics, the web app supports personalized learning experiences, accessible from any device, bridging communication gaps and fostering inclusivity by empowering students to learn at their own pace, both at school and home.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
